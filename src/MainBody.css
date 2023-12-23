@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.first-col {
+  /* height: 100vh; */
+  background-color: #bbbbbb;
+  width: 37%;
+}
+
+.middle-point {
+  display: flex;
+  width: 100%;
+  color: black;
+}
+.main-top-bar {
+  color: #656565;
+  font-size: 18px;
+}
+
+.second-col {
+  background-color: #a7a7a7;
+  width: -webkit-fill-available;
+}
+
+.main-top-bar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+.faq {
+  color: black;
+}
+
+.user-id {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.profile {
+  display: flex;
+  align-items: baseline;
+}
+
+.profile_header {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+}
+
+.contact_icon {
+  font-size: 27px;
+}
+
+.profile-links {
+  margin: auto;
+  width: 79%;
+}
+
+.user_icon {
+  font-size: 33px;
+  color: rgb(67, 67, 67);
+}
+
+.id-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.main_body_wrapper {
+  display: flex;
+}
+
+.header_text {
+  color: black;
+  text-align: left;
+  font-size: 19px;
+}
+
+.page_title {
+  text-align: left;
+  margin: 0 0 0 27px;
+}
+
+.analytics-list {
+  text-align: left;
+  width: 58%;
+  margin: auto;
+}
+
+.help_hero_wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: grey;
+  padding: 29px 0;
+  border-radius: 23px;
+}
+
+.search_container_wrapper {
+  margin: 33px 22px;
+}
+
+.faq_wrapper_questions {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-left: 28px;
+  cursor: pointer;
+}
+
+.faq_section_wrap-two {
+  width: 191px;
+  background-color: #898989;
+  border-radius: 10px;
+  padding: 2px 17px;
+  margin: 0 0 23px 21px;
+}
+
+.sign_out {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  justify-content: center;
+  margin: 44px 0;
+}
+
+.hyper_link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.faq_questions_section {
+  display: flex;
+}
+
+.analytics-list_question {
+  text-align: left;
+}
+
+@media (max-width: 767px) {
+  .faq_questions_section {
+    flex-direction: column;
+  }
+}

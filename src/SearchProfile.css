@@ -1,0 +1,29 @@
+/* SearchBar.css */
+
+.search-profile {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Adjust the width as needed */
+  margin: 0 auto;
+  border: 1px solid #df9437;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  color: black;
+}
+
+.search-icon {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.input_search {
+  background-color: #ccc;
+}
